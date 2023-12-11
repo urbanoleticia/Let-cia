@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban </title>
+    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header"
+     <h1> kanban</h1>
+     <button id="novatareda"> Nova Tarefa</button>
+</div>
+
+<div class="container">
+</div>
+    <div id="modal">
+        <div class="box">
+
+        </div>
+    </div>
+
+ <div class="coluna">
+   <div class="head">
+    <span> Nova Tarefa</span>
+    <button>X</button>
+    </div>
+
+    <div class="form">
+      <div clas="form.grupo" >
+       <label for="descrição"> Descrição</label> 
+       <textarea id="descrição" rows="3"></textarea>
+      </div> 
+         </div>
+
+         
+    <div class="form">
+        <div clas="form.grupo">
+         <label for=prioridade"> prioridade</label> 
+         <select id="prioridade">
+            <option> baixa </option>
+            <option> Média</option>
+            <option> Alta</option>
+        </select>
+        </div> 
+          
+
+           
+    <div class="form">
+        <div clas="form.grupo" >
+         <label for="prazo">prazo</label> 
+         <input type="date" id="prazo">
+        </div> 
+         
+        <button> Cadastrar</button>
+
+          
+
+    <div class="body">
+ </div>
+</div>
+
+<div class="coluna">
+    <div class="head">
+     <span> A fazer</span>
+     </div>
+     <div class="body">
+  </div>
+ </div>
+
+ <div class="coluna">
+    <div class="head">
+     <span> Em Andamento</span>
+     </div>
+     <div class="body">
+  </div>
+ </div>
+
+ <div class="coluna">
+    <div class="head">
+     <span> Concluido</span>
+     </div>
+     <div class="body">
+    
+  </div>
+ </div>
+
+</div>
+    <script scr="main.js">
+
+    </script>
+</body>
+</html>
